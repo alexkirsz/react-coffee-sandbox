@@ -1,0 +1,24 @@
+{
+  "name": "react-coffee-sandbox",
+  "version": "0.0.1",
+  "description": "Sandbox for testing out ReactJS with CoffeeScript",
+  "author": "Alexandre Kirszenberg <alexandre.kirszenberg@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:morhaus/react-coffee-sandbox.git"
+  },
+  "scripts": {
+    "prepublish": "gulp --require coffee-script/register",
+    "watch": "gulp watch --require coffee-script/register"
+  },
+  "dependencies": {
+    "browserify": "^6.1.0",
+    "coffee-script": "^1.8.0",
+    "coffeeify": "^0.7.0",
+    "gulp": "^3.8.8",
+    "gulp-clean": "^0.3.1",
+    "gulp-rename": "^1.2.0",
+    "react": "^0.11.2",
+    "vinyl-source-stream": "^1.0.0"
+  }
+}
